@@ -7,17 +7,19 @@
   <title>Document</title>
 </head>
 <body>
+  <h1>Calculo de tu IMC</h1>
   <div>
     <label for="peso">¿Cuál es tu peso?</label>
-    <input  id=peso type="text" name="peso" value="">
+    <input  id="peso" type="text" name="peso" value="">
   </div></br>
   <div>
     <label for="talla">¿Cuál es tu talla?</label>
-    <input id=talla type="text" name="talla" value="">
+    <input id="talla" type="text" name="talla" value="">
   </div></br>
   <div>
-    <button type="button" name="button" onclick="">Enviar Datos</button>
+    <button onclick="enviaDatos(); return false">Enviar Datos</button>
   </div>
+  <div id="datos"></div>
   <script src="archivo.js"></script>
 </body>
 </html>
